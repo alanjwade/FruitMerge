@@ -1,10 +1,11 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: '/FruitMerge/',
   root: '.',
   publicDir: 'public',
   server: {
-    host: '0.0.0.0',  // accessible from phone on same network
+    host: '0.0.0.0',
     port: 3000,
   },
   build: {
